@@ -62,7 +62,6 @@ div {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
     font-size: 50px;
-    line-height: 20px;
     margin-top: 20px;
 }
 
@@ -152,4 +151,5 @@ div {
     0% { border-color: white; }
     50% { border-color: transparent; }
     100% { border-color: white; }
+
 }
