@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {
+    background-color: #bde0fe;
+
+}
+
+div {
+    width: 100%;
+    margin: auto;
+}
+
+.imgs img {
+    width: 350px;
+}
+
+.container h1 {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: whitesmoke;
+    line-height: 60px;
+}
+
+.container {
+    padding-bottom: 30vh;
+}
+
+.texthead {
+    margin-top: -100px;
+}
+
+.btns {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns a {
+    text-decoration: none;
+    border-radius: 150px;
+    padding: 15px 40px;
+    background-color: whitesmoke;
+    margin: 0 10px;
+}
+
+.btns a:hover {
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+/* NO */
+
+.container-no div {
+    width: 100%;
+    margin: auto;
+    
+}
+
+.container-no h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.container-no {
+    padding-bottom: 20vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+
+.mad img {
+    width: 380px;
+    margin-right: 30px;
+    margin-top: -60px;
+}
+
+.go-back {
+    margin-top: -40px;
+}
+
+.go-back button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 150px;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.go-back button:hover {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.container-no button {
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    border-radius: 150px;
+    color: black; 
+    border: none; /* Remove button border */
+    cursor: pointer; 
+}
+
+.container-no button:hover {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+/* YES */
+
+.container3 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: monospace;
+}
+
+.container3 div {
+    width: 90%;
+    margin: auto;
+}
+
+.container3 .longmess {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#typewriter {
+    font-size: 24px;
+    border-right: 3px solid black; /* blinking cursor */
+    white-space: pre-wrap;
+    overflow: hidden;
+    animation: blink 0.7s infinite;
+    
+}
+
+@keyframes blink {
+    0% { border-color: white; }
+    50% { border-color: transparent; }
+    100% { border-color: white; }
+}
